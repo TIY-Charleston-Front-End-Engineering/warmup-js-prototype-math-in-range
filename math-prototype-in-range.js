@@ -1,5 +1,5 @@
 //-----------------------------------------
-// Math.protoytype.range()
+// Math.range()
 //   Write a method called `range` to the Math prototype that accepts 2 arguments and
 //   returns a random integer number inside of that range
 //
@@ -37,7 +37,7 @@ var testForRandomRange = function(lowerNum, upperNum, iterationCount){
 }
 
 
-console.assert( typeof Math.prototype.range === 'function' )
+console.assert( typeof Math.range === 'function' )
 console.assert( testForRandomRange( 10 , 2000  )  === true )
 console.assert( testForRandomRange( -300, 10000 ) === true )
 
